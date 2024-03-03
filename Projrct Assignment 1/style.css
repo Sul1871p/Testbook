@@ -1,0 +1,28 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+/*Css for entire body */
+body{
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+/* navbar css */
+
+#navbar {
+    background-color: white ;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.nav_left, .nav_right{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+/* Content Panel */
+#contentPanel{
+    background-color: #E9E6DF;
+}
