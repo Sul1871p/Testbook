@@ -2,17 +2,19 @@
 
 /*Css for entire body */
 body{
-    font-family: 'Times New Roman', Times, serif;  
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif, monospace;  
 }
 
 /* navbar css */
 
-#navbar {
-    background-color: white ;  
+.navbar{
+    background-color: white;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 5vh;
+    align-items: center;
 }
 
 .nav_left, .nav_right{
@@ -24,5 +26,15 @@ body{
 
 /* Content Panel */
 #contentPanel{
+    padding: 25px 50px 0px 50px;    
     background-color: #E9E6DF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftPanel{
+    background-color: white;
+    max-width: 15vw;
+    border: 1px #DFDEDB solid;
+    border-radius: 10px;
 }
