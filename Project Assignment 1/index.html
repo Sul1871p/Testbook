@@ -15,9 +15,7 @@
     <nav class="navbar">
         <!-- Left Content -->
         <div class="nav_left">
-            <div class="logo">
-                <i class="fab fa-linkedin"></i>
-            </div>
+            <img src="images/linkedin_logo.png" alt="LinkedIn logo">
             <div class="searchbar">
                 <input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />
             </div>
@@ -25,27 +23,27 @@
 
         <!-- Right Content -->
         <div class="nav_right">
-            <div>
+            <div class="navLinks">
                 <i class="fa-solid fa-house-chimney"></i>
                 <a href="#">Home</a>
             </div>
-            <div>
+            <div class="navLinks">
                 <i class="fa-solid fa-people-group"></i>
                 <a href="#">My Network</a>
             </div>
-            <div>
+            <div class="navLinks">
                 <i class="fa-solid fa-briefcase"></i>
                 <a href="#">Jobs</a>
             </div>
-            <div>
+            <div class="navLinks">
                 <i class="fa-solid fa-message"></i>
                 <a href="#">Messaging</a>
             </div>
-            <div>
+            <div class="navLinks">
                 <i class="fa-solid fa-bell"></i>
                 <a href="#">Notifications</a>
             </div>
-            <div>
+            <div class="navLinks">
                 <a href="#">Me</a>
             </div>
         </div>
@@ -54,8 +52,8 @@
     <!-- Content Panels -->
     <div id="contentPanel">
         <div class="leftPanel">
-            <div>
-                <img src="" alt="profilPic">
+            <div class="profilePic">
+                <img src="images/sultan.png" alt="profilPic">
             </div>
             <br>
             <div>
@@ -64,26 +62,31 @@
             </div>
             <hr>
             <div>
-                <p>Profile viewers <span style="color: #0A66C2;">12</span></p>
-                <p>Post Impressions <span style="color: #0A66C2;">9</span></p>
+                <p>Profile viewers <span style="color: #0A66C2; float: right;">12</span></p>
+                <p>Post Impressions <span style="color: #0A66C2; float: right;">9</span></p>
             </div>
             <hr>
 
             <p>Access exclusive tools & insights</p>
         </div>
 
-        <div class="centrePanel">
-            <div>
-                <img src="" alt="profilPic">
-            </div>
-            <div>
+        <div class="centerPanel">
+
+            <div class="inputPic">
+                <img src="images/sultan.png" alt="profilPic">
+
                 <input type="text" name="Post" id="Post">
             </div>
+
             <div class="uploadIcons">
-                <button class="btn"><i class="fa-regular fa-image" style="color: #378FE9;"></i>Media</button>
-                <button class="btn"><i class="fa-regular fa-calendar-days" style="color: #C37D16;"></i>Event</button>
-                <button class="btn"><i class="fa-regular fa-newspaper" style="color: #E06847;"></i>Media</button>
+                <button class="btn"><i class="fa-regular fa-image fa-xl" style="color: #378FE9;"></i>Media</button>
+                <button class="btn"><i class="fa-regular fa-calendar-days fa-xl" style="color: #C37D16;"></i>Event</button>
+                <button class="btn"><i class="fa-regular fa-newspaper fa-xl" style="color: #E06847;"></i>Write Article</button>
             </div>
+        </div>
+
+        <div class="rightPanel">
+            <h3>LinkedIn News</h3>
         </div>
     </div>
 </body>

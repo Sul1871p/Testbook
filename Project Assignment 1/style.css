@@ -1,0 +1,126 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+/*Css for entire body */
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif, monospace;  
+}
+
+body a{
+    text-decoration: none;  /* removes underline from links*/
+}
+
+/* navbar css */
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    align-items: center;
+}
+
+.nav_left, .nav_right{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav_left img{
+    width: 8%;
+}
+
+.searchbar{
+    padding-left: 2%;
+}
+
+.searchbar input{
+    width: 15vw;
+    height: 3.5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #EDF3F8;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+/* Content Panel */
+#contentPanel{
+    padding: 1% 5% 0% 20%;    
+    background-color: #E9E6DF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftPanel{
+    background-color: white;
+    max-width: 13vw;
+    border: 1px #DFDEDB solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.profilePic{
+    display: flex;
+    justify-content: center;
+}
+
+.leftPanel img{
+    width: 50%;
+}
+
+.centerPanel{
+    background-color: white;
+    border: 1px #DFDEDB solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: 11vh ;
+    width: 35vw;
+}
+
+.inputPic{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.centerPanel img{
+    width: 10%;
+}
+
+#Post{
+    border-radius: 30px;
+    width: 30vw;
+    height: 5vh;
+    border-color: #A4A4A4;
+    border-style: groove;
+    margin-left: 1%;
+}
+
+.uploadIcons{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.btn{
+    width : 8vw;
+    height: 4vh;
+    margin-right: 5%;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.btn:hover{
+    background-color: #DFDEDB;
+}
+
+.btn i{
+width: 25%;
+}
