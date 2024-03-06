@@ -1,10 +1,16 @@
-@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+/* import font awesome css link for custom Logos(Used in search bar) */
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css"; 
+*{
+    box-sizing: border-box;
+    margin:0px;
+    font-family: sans-serif, monospace;
+}
 
 /*Css for entire body */
 body{
     margin: 0%;
     padding: 0%;
-    font-family: sans-serif, monospace;  
+     
 }
 
 body a{
@@ -16,7 +22,7 @@ body a{
 .navbar{
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 6vh;
     align-items: center;
 }
@@ -31,7 +37,7 @@ body a{
 .nav_left img{
     width: 8%;
 }
-
+ 
 .searchbar{
     padding-left: 2%;
 }
@@ -41,39 +47,87 @@ body a{
     height: 3.5vh;
     border: none;
     border-radius: 5px;
-    background-color: #EDF3F8;
+    background-color: #DCE6F1;
+    padding-left: 5%;
 }
 
 .navLinks{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-right: 2vw;
 }
 
-/* Content Panel */
-#contentPanel{
-    padding: 1% 5% 0% 20%;    
-    background-color: #E9E6DF;
-    display: flex;
-    flex-wrap: wrap;
+.navLinks a{
+    color: gray;    
 }
 
-.leftPanel{
+.navbtn{
+    border: none;
+    background-color: #FFFFFF;
+    padding:0% 3% 0% 3%;
+    margin: 5px;
+}
+
+.navbtn:hover {
+.fa-solid{color: black !important;}
+}
+
+.navbtn img{
+    width: 1.5vw;
+}
+
+.navbtn a{
+    display: flex;
+    flex-direction: column;
+}
+/* Content Panel */
+#contentPanel{
+    padding: 1% 10% 0% 10%;    
+    background-color: #E9E6DF;
+    display: grid;
+    grid-template-columns: 20% 50% 25%; 
+    grid-gap:16px;
+}
+
+.leftPanel, .rightPanel, .centerPanel{
     background-color: white;
-    max-width: 13vw;
     border: 1px #DFDEDB solid;
     border-radius: 10px;
-    padding: 10px;
 }
 
 .profilePic{
+    background: url(images/back.jpg);
+    border-radius: 10px 10px 0  0;
     display: flex;
     justify-content: center;
 }
 
 .leftPanel img{
-    width: 50%;
+    margin: 15% 0 -10% 0;
+    height:50%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.profileInfo{
+    padding: 15% 10% 5% 10%;
+    text-align: center;
+    border-bottom: 2px gray solid;
+}
+
+.profileInfo p{
+    padding-top: 5%;
+}
+
+.accountInfo{
+    padding: 5% 0 5% 0;
+    border-bottom: 2px gray solid;
+    font-size: small;
+}
+
+.accountInfo p{
+    padding: 2%;
 }
 
 .centerPanel{
@@ -82,7 +136,8 @@ body a{
     border-radius: 10px;
     padding: 10px;
     height: 11vh ;
-    width: 35vw;
+    width: 30vw;
+    margin: 0% 2% 0% 2%;
 }
 
 .inputPic{
@@ -96,11 +151,13 @@ body a{
 
 #Post{
     border-radius: 30px;
-    width: 30vw;
+    width: 25vw;
     height: 5vh;
     border-color: #A4A4A4;
     border-style: groove;
     margin-left: 1%;
+    border-width: 1px;
+    padding-left: 5%;
 }
 
 .uploadIcons{
