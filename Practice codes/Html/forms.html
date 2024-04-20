@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <form action="#" method="get">
+                <label for="uName">Username: </label>
+                <input type="text" id="uName" name="username">
+
+                <br><br>
+
+                <label for="Email">Email: </label>
+                <input type="email" name="user_email" id="Email">
+
+                <br><br>
+
+                <label for="gender">Gender</label> <br>
+                <input type="radio" name="gender"> Male <br>
+                <input type="radio" name="gender"> Female <br>
+                <input type="radio" name="gender"> Other
+
+                <br><br>
+
+                <label for="Skills">Skills</label> <br>
+                <input type="checkbox" name="html"> HTML <br>
+                <input type="checkbox" name="css"> CSS <br>
+                <input type="checkbox" name="javascript"> Javascript
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+
+        <hr>
+
+        <div style="background-color: lightgrey;">
+            <form method="post">
+                <label for="uName">Username: </label>
+                <input type="text" id="uName" name="username">
+
+                <br><br>
+
+                <label for="Email">Email: </label>
+                <input type="email" name="user_email" id="Email">
+
+                <br><br>
+
+                <label for="Email">Password: </label>
+                <input type="email" name="password" id="password">
+
+                <br> <br>
+
+                <button onclick="alert('Server validating')">Validate</button>
+            </form>
+        </div>
+        <hr>
+
+        <div>
+            <form action="" method="get">
+
+                <h2>Textarea</h2>
+
+                <label for="textarea">About you</label> <br> <br>
+
+                <textarea name="About" cols="30" rows="10"></textarea> <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <hr>
+
+        <div style="background-color: lightgrey;">
+            <form action="#" method="post">
+                <label for="uName">Name: </label> <br>
+                <input type="text" name="uName" placeholder="Enter Name" required> <br> <br>
+
+                <label for="email">Email: </label> <br>
+                <input type="email" name="email" placeholder="Enter email" required> <br> <br>
+
+                <label for="rNo">Roll No.: </label> <br>
+                <input type="number" name="rNo" placeholder="Roll No." required> <br> <br>
+
+                <label for="rating">How do you rate our course? </label> <br>
+                <select name="rating">
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Okay">Okay</option>
+                    <option value="Bad">Bad</option>
+                    <option value="Worst">Worst</option>
+                </select> <br> <br>
+
+                <label for="Topics">Your Favourite Topic in HTML</label> <br>
+                <input type="checkbox" name="Topics">Stuctural Elements <br>
+                <input type="checkbox" name="Topics">Links And Lists <br>
+                <input type="checkbox" name="Topics"> HTML Media <br>
+                <input type="checkbox" name="Topics"> Html Table <br>
+                <input type="checkbox" name="Topics"> Grouping Elements <br>
+                <input type="checkbox" name="Topics"> Forms <br>
+
+                <br>
+
+                <label for="Opinion">Do You like the HTML course?</label> <br>
+                <input type="radio" name="Opinion"> Yes 
+                <input type="radio" name="Opinion"> No <br>
+
+                <br>
+
+                <label for="textarea">Few Words About the course</label> <br>
+                <textarea name="reviews" cols="30" rows="10"></textarea> <br> <br>
+
+                <button type="submit">Submit</button> <br> <br>
+                
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

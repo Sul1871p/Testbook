@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .box {
+            border: 1.5px solid black;
+        }
+
+        p {
+            color: red;
+            text-align: center;
+        }
+
+        #HW {
+            text-align: right;
+            color: blue;
+        }
+        
+        .sClass{
+            color: red;
+            text-align: center;
+        }
+        *{
+            color: green;
+            text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+
+<body>
+    <div class="box">
+        <p>Every paragraph will be affected by the style</p>
+
+        <p>Me Too!</p>
+
+        <p>And Me!</p>
+    </div>
+    <br>
+    <div class="box">
+        <p id="HW">Hello World</p>
+
+        <p>This paragraph is not affected by style</p>
+    </div>
+    <br>
+    <div class="box">
+        <h1 class="sClass">Red and centre aligned heading</h1>
+
+        <p class="sClass">Red and centre aligned paragraph</p>
+    </div>
+    <br>
+    <div class="box">
+        <h1>Hello World!</h1>
+
+        <p>Every element on the page will be affected by the style.</p>
+
+        <p>Me Too!</p>
+
+        <p>And me!</p>
+    </div>
+</body>
+
+</html>

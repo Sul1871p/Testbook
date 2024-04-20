@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: skyblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form method="post">
+        <h1>Registration Form</h1>
+        <div>
+            <label for="personal_details">Enter your details</label>
+            <ul>
+                <li> <input type="email" name="email" id="email" placeholder="your_email@gmail.com"> </li> <br>
+                <li> <input type="password" name="password" id="password" placeholder="Password"> </li>
+            </ul>
+            <label for="password"><strong><em>!Type a complex password with 8-20 characters.</em></strong></label> <br>
+            <ul>
+                <li> <input type="number" name="number" id="number" placeholder="Phone Number"> </li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div>
+            <label for="profession"> <strong><em>Enter your profession: </em></strong> </label>
+            <ul>
+                <li>
+                    <input type="radio" name="profession" id="Student"> Student
+                    <input type="radio" name="profession" id="Teacher"> Teacher
+                    <input type="radio" name="profession" id="Developer"> Developer
+                </li>
+            </ul>
+            <br>
+            <label for="ifStudent">Choose the stage if you are (student)</label>
+            <select name="ifStudent" id="ifStudent">
+                <option value="Primary">Primary</option>
+                <option value="Secondary">Secondary/High School</option>
+                <option value="Higher Secondary">Higher Secondary</option>
+                <option value="Graduate">Graduate</option>
+                <option value="Post-Graduate">Post-Graduate</option>
+            </select>
+        </div>
+
+        <hr>
+
+        <div>
+            <ul>
+                <li>
+                    <label for="dob">Enter your Birth date</label>
+                    <input type="date" name="dob" id="dob">
+                </li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div>
+            <ul>
+                <li>
+                    <textarea name="Notes" id="Notes" cols="30" rows="1" placeholder="Any notes"></textarea>
+                </li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>

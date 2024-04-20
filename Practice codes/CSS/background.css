@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/184944843/photo/blurred-gold-sparkles-background-with-darker-top-corners.webp?b=1&s=170667a&w=0&k=20&c=uXhjl6mq3gFD7EB45Qv6AAU4pjTyFW41R6PPb6K4REQ=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.boxes {
+    border: 1.5px solid black;
+}
+
+
+
+.box1 {
+    background-color: skyblue;
+}
+
+h1 {
+    background-color: green;
+}
+
+.bg-color {
+    background-color: red;
+}
+
+
+
+.box2 {
+    font-weight: bold;
+
+}
+
+.opacity0 {
+    background-color: rgba(0, 128, 0);
+}
+
+.opacity10 {
+    background-color: rgba(0, 128, 0, 0.1);
+}
+
+.opacity30 {
+    background-color: rgba(0, 128, 0, 0.2);
+}
+
+.opacity60 {
+    background-color: rgba(0, 128, 0, 0.6);
+}
+
+.default {
+    background-color: rgba(0, 128, 0);
+}
