@@ -1,0 +1,1 @@
+Hello everyone this repository is somewhat of my journey towards being a fullstack developer. It consists of multiple files where I,ve learnt as well as implemented the concepts I came across in this journey of mine. 
